@@ -1,0 +1,441 @@
+html{
+    font-size: 1px;
+}
+.image-container{
+    height:fit-content;
+}
+#team-images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+#team-container{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.team{
+    width:250px;
+    height:500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border: 3px solid white;
+    flex-grow:1;
+    padding: 0px;
+}
+#chole{background-image: url("./Images/pexels-chloe-1043473.jpg");background-repeat: no-repeat;background-position: center;background-size: cover;} 
+#daniel{
+background-image: url("./Images/pexels-daniel-xavier-1239288.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+} 
+#hatice{
+background-image: url("./Images/pexels-hatice-baran-14783579.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;} 
+#natasha{
+background-image: url("./Images/pexels-natasha-lois-4689912.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;} 
+#andrea{
+background-image: url("./Images/pexels-andrea-piacquadio-774909.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;}
+header{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    justify-content: space-between;
+    left: 0px;
+    align-items:space-between;
+}
+.desc h3{
+    font-size:20px;
+    text-align:left;
+    font-family:"Montserrat";
+    margin:0px;
+    color:white;
+    padding-left:20px;
+    padding-top: 3%;
+    padding-bottom: 17px;
+}
+h5{
+    font-family:"Montserrat";
+    letter-spacing:1px;
+    text-transform:uppercase;
+    color:gray;
+    font-weight:700;
+    font-size:10px;
+    padding-left:20px;
+    margin:0px;
+    padding-bottom:10px;
+    
+    
+    
+}
+.descteam h3{
+    font-size:20px;
+    text-align:left;
+    font-family:"Montserrat";
+    margin:0px;
+    color:white;
+    padding-left:20px;
+    padding-top: 3%;
+    padding-bottom: 5px;
+}
+.desc ,.descteam{
+    /* position:relative; */
+    bottom: 15%;
+    background-color:black;
+    /* height: 14%; */
+    width: 100%;
+    /* height: 14%; */
+}
+#list{
+    display: none;
+}
+
+#products-container{
+    display:flex;
+    margin-top: 3px;
+    margin-bottom: 60px;
+    flex-flow:column;
+    padding-left: 9%;
+    padding-right:9%;
+}
+#contact h2{
+    font-size:30px;
+    font-family:"Montserrat";
+    font-weight:700;
+    
+}
+p{
+    font-size:20px;
+    font-family:"Montserrat"
+    
+}
+#contact{
+    display: flex;
+    flex-direction:row;
+    flex-grow: 1;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* padding-left: 187px; */
+    flex-wrap: wrap;
+    width: -12px;
+}
+footer{
+    background-color:black;
+    color:white;
+    height:50px;
+    
+}
+footer p{
+    font-size:15px;
+    text-align:center;
+    padding:16px;
+}
+#loc{
+    display:flex;
+    padding-top: 66px;
+    /* flex-grow: 1; */
+    align-items: flex-start;
+    flex-direction:column;
+}
+#contact img{
+    display:flex;
+    width:94%;
+    height:auto;
+}
+#products-container h2{
+    font-size:30px;
+    font-family:"Montserrat";
+    font-weight:700;
+    
+    
+}
+#product-images{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.image-container{
+    padding:3px;
+}
+#product-images img{
+    width:100%;
+    height:auto;
+    padding:0px;
+}
+.sofa{
+    width: 49%;
+    /* height: fit-content; */
+    flex-grow: 1;
+}
+.chair{
+    width: 42.5%;
+    flex-grow: 1;
+}
+.child{
+    width: 32%;
+    flex-grow: 1;
+}
+.bedrooms{
+    width: 40%;
+    flex-grow: 1;
+}
+#team-container h2{
+    font-size:30px;
+    font-family:"Montserrat";
+    font-weight:700;
+    color: white;
+    padding-left: 10px;
+}
+nav{
+    width: 40%;
+}
+img{
+    padding: 5px;
+    height:55rem;
+}
+ul{
+    display: flex;
+    padding-left: 0px;
+    justify-content: space-around;
+    width: 100%;
+}
+body{
+    margin:0px;
+}
+nav li{
+    font-size: 16rem;
+    display: inline-flex;
+    font-family: "Montserrat";
+    padding-top: 30px;
+    color: white;
+    list-style-type: none;
+}
+#main-div{
+  
+display: flex;
+  
+background-image: url(./Images/pexels-shvets-production-7525019\ \(1\).jpg);
+  
+background-repeat: no-repeat;
+  
+background-size: cover;
+  
+position: static;
+  
+background-position: center;
+  
+height: 620px;
+  
+width: 100%;
+  
+flex-flow: column;
+}
+ h1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 36rem;
+    font-family: "Playfair Display";
+    width: 41%;
+    color:1px;
+    color:#555;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding-top: 15%;
+    margin:0px;
+}
+#main-div span{
+    font-size: 35px;
+    color: black;
+}
+#seemore{
+    border:2px solid black;
+    height: 50px;
+    width:200px;
+    border-radius:10px;
+    color:white;
+    margin-left:10%;
+    background-color:black;
+    font-family:"Montserrat";
+    font-size:14px;
+    margin-top:10px;
+    cursor:pointer;
+    
+}
+#seemore:hover{
+    font-size:16px;
+    text-transform:uppercase;
+    transition: background-color .15s, font-size .15s;
+    
+}
+#seemore:active{
+    background-color:white;
+    color:black;
+}
+#joinus{
+  
+    background-color:#e6d36e;
+    width:90px;
+    height:50px;
+    border:2px solid black;
+    border-radius:30px;
+    font-family:"Montserrat";
+    font-size:14px;
+    cursor:pointer;
+}
+#joinus:hover{
+    font-size:16px;
+    text-transform:uppercase;
+    transition: background-color .15s, font-size .15s;
+    
+}
+#joinus:active{
+    background-color:hsl(50,71%,67%,0.6);
+    color:white;
+}
+#bottonlist{
+    padding-top: 12px;
+}
+@media only screen and (min-width:501px) and (max-width:750px){
+    #product-images{
+        flex-direction:column;
+    }
+    .sofa , .chair,.child,.bedrooms{
+        width:100%;
+    }
+    #list{
+        display: none;
+    }
+    nav{
+        width:70%;
+    }
+    img{
+    padding: 10px;
+    height:45rem;
+}
+    nav li{
+    font-size: 14rem;
+    display: inline-flex;
+    font-family: "Montserrat";
+    padding-top: 28px;
+    color: white;
+    list-style-type: none;
+}
+     h1 {
+    font-size: 20rem;
+    width: 35%;
+    padding-top: 150px;
+}
+    #seemore{
+    height: 50px;
+    width:100px;
+    color:white;
+    margin-left:10%;
+    margin-top:10px;
+}
+    #joinus{
+    height:40px;
+}
+    #bottonlist{
+    padding-top: 15rem;
+}
+    body{
+        padding:0px;
+        margin:0px;
+    }
+    #main-div{
+  margin-top: 0px;
+}
+}
+@media only screen and (min-width:600px) and (max-width:750px){
+    #list{
+        display: none;
+    }
+    nav{
+        width:60% !important;
+    }
+    #seemore{
+    height: 50px;
+    width:150px;
+    color:white;
+    margin-left:8%;
+    margin-top:10px;
+}
+     h1{
+     font-size:25rem;   
+     padding-top: 120px;
+    }   
+}
+@media only screen and (min-width:750px) and (max-width:1000px){
+    #list{
+        display: none;
+    }
+    nav{
+        width: 60%;
+    }
+}
+@media only screen and (min-width:350px) and (max-width:500px){
+    #product-images{
+        flex-direction:column;
+    }
+    .sofa , .chair,.child,.bedrooms{
+        width:100%;
+    }
+    nav{
+        display:none;
+    }
+    img{
+    
+    height:60rem;
+}
+header{
+    right:0px;
+}
+#main-div{
+    width:100%;
+    height:350px;
+    
+   
+
+}
+    h1{
+        font-family:"Montserrat";
+        font-size:14rem;
+        padding-left:3px;
+        padding-right:3px;
+        flex-shrink:2;
+        margin-top:10%;
+        width:35%;
+        
+    }
+    #seemore{
+        width:120px;
+        font-size:14px;
+        height:40px;
+        margin-left:5%;
+    }
+    #seemore:active{
+        font-size:16px;
+    }
+   #main-div span{
+        font-size:35rem;
+    }
+    #list{
+        display: block;
+        height:40px;
+        padding-top:20px;
+    }
+}
